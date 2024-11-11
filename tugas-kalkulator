@@ -1,0 +1,16 @@
+void main() {
+  String jns_operasi = 'Aplikasi Kalkulator';
+  double a, b;
+  a = 50;
+  b = 30;
+  print(jns_operasi);
+  print("--------------------");
+  jns_operasi = 'Perkalian';
+  print('Jenis operasi $jns_operasi : ${a * b}');
+  jns_operasi = 'Pembagian';
+  print('Jenis operasi $jns_operasi : ${a / b}');
+  jns_operasi = 'Pengurangan';
+  print('Jenis operasi $jns_operasi : ${a - b}');
+  jns_operasi = 'Pembagian';
+  print('Jenis operasi $jns_operasi : ${a / b}');
+}
